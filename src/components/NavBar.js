@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
 function NavBar() {
   return (
     <div
@@ -10,6 +9,7 @@ function NavBar() {
         marginBottom: "12px",
       }}
     >
+
       <NavLink style={{ marginRight: "10px" }} to="/">
         Home
       </NavLink>
